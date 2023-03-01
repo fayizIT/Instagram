@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Helvetica Neue, Arial, Helvetica, sans-serif ;
+    background-color: white;
+}
+.left-body{
+    width: 589px;
+    float: left;
+    padding-left: 134px;
+    padding-top:52px;
+}
+
+.right-body{
+    width: 749px;
+    height: 597px;
+    float: left;
+    background-color: white;
+}
+.main-body{
+    background: linear-gradient(red,#0f3ac9);
+    width: 100%;
+    height: 500px;
+
+}
+.logo-image{
+    width: 217px;
+    height: 449px;
+    margin-left: 247px;
+    margin-top: -476px;
+    padding-bottom: 39px;
+}
+.insta-image{
+    width: 335px;
+    height: 498px;
+    margin-top: 17px;
+    padding-left: 149px;
+}
+
+
+.box1{
+    width: 80%;
+    height: 26%;
+    background: white;
+    float: left;
+    margin: 0px;
+    margin-top: 65px;
+    margin-left: 0px;
+    padding-bottom: 224px;
+    justify-content: center;
+    margin-top: 55px;
+    max-width: 350px;
+    border: thin;
+    text-align: center;
+    border: 1px solid #1414142f;
+    
+    
+}
+.tittle{
+    padding: 30px 0;
+    text-transform:capitalize; 
+    font-size:45px;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+}
+.form{
+    width: 75%;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+    left: 50%;
+    transform:translateX(-50%); 
+}
+
+input[type="text"],input[type="password"]{
+    padding-left:10px;
+    position:relative;
+    height:35px;
+    font-size:14px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: white;
+    outline-color: #fff;
+    outline-width: 0%;
+}
+
+input::placeholder{
+    font-weight:normal;
+    font: size 10px;
+    transition: 0.3s ease;
+    
+}
+input:focus::placeholder{
+    position:absolute;
+    font-size:10px;
+    transform: translateY((-13px));
+    
+
+}
+
+.log-btn{
+    border: none;
+    background: #428df7;
+    padding:10px 0;
+    margin: 0px;;
+    color: #fff;
+    border-radius: 7px;
+    font-weight:bold;
+    text-transform: capitalize;
+    letter-spacing:1px;
+    letter-spacing:1px;
+    outline:none;
+    cursor:pointer;
+    padding-bottom: 10px;
+    
+    
+}
+.option{
+    color:#5a5a5a;
+    margin: 10px 0;
+    font-weight:bold;
+    position: relative;
+}
+.option:before{
+    position: absolute;
+    content: '';
+    width:37%;
+    height:2px;
+    background:  #1414142f;
+    left: 0;
+    top:50%;
+    
+}
+.option:after{
+    position: absolute;
+    content: '';
+    width:37%;
+    height:2px;
+    background:  #1414142f;
+    right: 0;
+    top:50%;
+    
+}
+.facebook-link{
+    margin-top:15px;
+    font-size:14px;
+    color: blue;
+}
+.icon{
+    height:15px;
+}
+
+.forgot-pass{
+    margin-top:10px;
+    font-size:14px;
+    color: blue;
+
+}
+
+
+.box2{
+    width: 100%;
+    
+    background: white;
+    float: left;
+    margin-top: 24px;
+    max-width: 350px;
+    padding-bottom: 10px;
+    margin-top: 13px;
+    border: 1px solid #1414142f;
+}
+.get-app{
+    margin-bottom: -18px;
+
+}
+.img-bottom{
+    width: 114px;
+    height: 41px;
+}
+
+.footer{
+    text-align: left;
+    font-size: small;
+    color: grey;
+    padding-bottom: 5%;
+    word-spacing: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.para-footer{
+    text-align: center;
+    font-size: small;
+    color: grey;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.para-end{
+    text-align: center;
+    font-size: small;
+    color: grey;
+    margin-bottom: 5px;
+
+}
+
+
+

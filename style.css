@@ -180,13 +180,14 @@ input:focus::placeholder{
 }
 
 .footer{
-    text-align: left;
+    text-align: center;
     font-size: small;
     color: grey;
     padding-bottom: 5%;
     word-spacing: 10px;
     cursor: pointer;
     margin-top: 20px;
+    padding-top: 45%;
 }
 
 .para-footer{
